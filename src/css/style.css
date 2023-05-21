@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.app-header {
+    background: no-repeat url('../image/bgsanta.png');
+    background-size: 100%;
+    height: 3700px;
+}
+
+.first {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 380px;
+    margin-left: 723px;
+}
+
+.first_1 {
+    margin: 20px;
+}
+
+.first_2 {
+    margin: 9px 10px 0 106px;
+}
+
+
+
+.first_3 {
+    margin: 29px 0 0 103px;
+}
+
+
+.first_4 {
+    margin: 72px 0 0 158px;
+}
+
+.first_5 {
+    margin: 70px 0 0 0
+}
+
+.first_6 {
+    margin: 103px 0 0 182px;
+}
+
+.seven {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 551px;
+    width: 950px;
+}
+
+
+.seven_11 {
+    margin: 25px 0 0 10px;
+}
+
+
+.seven_10 {
+    margin: 44px 0 0 148px;
+}
+
+.seven_7 {
+    margin: 51px 0 0 123px;
+}
+
+.seven_12{
+    margin: 24px 0 0 95px;
+}
+
+.seven_9 {
+    margin: 22px 0 0 226px;
+}
+
+.seven_8 {
+    margin: -7px 0 0 143px;
+}
+
+.thirteen {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 639px;
+    width: 780px;
+}
+
+.thirteen_13 {
+    margin: 22px 0 0 176px;
+}
+
+.thirteen_14 {
+    margin: 22px 0 0 147px;
+}
+
+.thirteen_17 {
+    margin: 10px;
+}
+
+
+.thirteen_16 {
+    margin: 50px 0 0 140px;
+}
+
+
+.thirteen_15{
+    margin: 70px 0 0 139px;
+}
+
+.eighteen {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 470px;
+    width: 960px;
+}
+
+.eighteen_18 {
+    margin: 23px 50px 0 258px;
+}
+
+.eighteen_19 {
+    margin: 79px 150px 0 75px;
+}
+
+.eighteen_22 {
+    margin: 36px 70px 0 100px;
+}
+
+.eighteen_21 {
+    margin: 141px 110px 0 44px;
+}
+
+.twenty {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 435px;
+    width: 960px;
+}
+
+.twenty_25 {
+    margin: 123px 0 0 144px;
+}
+
+
+.twenty_26 {
+    margin: 80px 85px 0 159px;
+}
+
+.twenty_27 {
+    margin: 85px 0 0 139px;
+}
+
+.twenty_28 {
+    margin: 41px 0 0 185px;
+}
+
+.twenty_29 {
+    margin: 94px 0 0 81px;
+}
+
+.twenty_30 {
+    margin: 89px 0 0 317px;
+}
+
+.twenty_31 {
+    margin: 88px 0 0 175px;
+}
+
+
+
+

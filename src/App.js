@@ -1,22 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import {Date1} from './components/date1-6'
+import {Date7} from './components/date7-12'
+import {Date13} from './components/date13-17'
+import {Date18} from './components/date18-23'
+import {Date24} from './components/date24-31'
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="app-header">
+        <Date1/>
+        <Date7/>
+        <Date13/>
+        <Date18/>
+        <Date24/>
       </header>
     </div>
   );
