@@ -66,7 +66,7 @@ export const Date1 = () => {
             <div className="first_6">
                     <img src={img6} alt="1" className='img1' onClick={showModal}/>
                 <Modal title="Basic Modal" open={isModalOpen} onOk={handleOk} onCancel={handleCancel}>
-                    <p> «Наша дружная команда SANTA подготовила для Вас креативное поздравление! Переходите по ссылке и заряжайтесь настроением! Ссылка на ютуб - https://www.youtube.com/watch?v=6dKuxbs-Kfo.</p>
+                    <p>«Наша дружная команда SANTA подготовила для Вас креативное поздравление! Переходите по ссылке и заряжайтесь настроением! Ссылка на ютуб - https://www.youtube.com/watch?v=6dKuxbs-Kfo.</p>
                 </Modal>
             </div>
         </div>
