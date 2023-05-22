@@ -165,6 +165,49 @@
     margin: 88px 0 0 175px;
 }
 
+:where(.css-dev-only-do-not-override-15rg2km).ant-modal .ant-modal-title {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+:where(.css-dev-only-do-not-override-15rg2km).ant-modal .ant-modal-body {
+    font-size: 20px;
+    text-align: justify;
+
+}
+
+:where(.css-dev-only-do-not-override-15rg2km).ant-modal .ant-modal-close-x {
+    font-size: 24px;
+
+}
+
+:where(.css-dev-only-do-not-override-15rg2km).ant-btn {
+    font-size: 20px;
+    height: auto;
+    padding: 8px 38px;
+    border-radius: 6px;
+}
+
+:where(.css-dev-only-do-not-override-15rg2km).ant-btn-default {
+    display: none;
+}
+
+:where(.css-dev-only-do-not-override-15rg2km).ant-modal .ant-modal-footer {
+    text-align: center;
+
+}
+
+.rosigrish_items{
+    list-style: none;
+    text-align: center;
+}
+
+
+.madal_a {
+    text-align: center;
+}
 
 
 

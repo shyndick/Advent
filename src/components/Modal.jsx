@@ -1,6 +1,6 @@
 import { Button, Modal } from 'antd';
 import { useState } from 'react';
-const App = () => {
+const Modalka = ({text, klass, img, a, img2, text2, text3, a2, title, rosigrish }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const showModal = () => {
     setIsModalOpen(true);
@@ -11,17 +11,21 @@ const App = () => {
   const handleCancel = () => {
     setIsModalOpen(false);
   };
+
+  
   return (
     <>
-      <Button type="primary" onClick={showModal}>
-        Open Modal
-      </Button>
-      <Modal title="Basic Modal" open={isModalOpen} onOk={handleOk} onCancel={handleCancel}>
-        <p>Some contents...</p>
-        <p>Some contents...</p>
-        <p>Some contents...</p>
-      </Modal>
+            <div className={klass}>
+                    <img src={img} alt="1" className='img1' onClick={showModal}/>
+                <Modal title={title} open={isModalOpen} onOk={handleOk} onCancel={handleCancel}>
+                    <p>{text}{img2 && <img src={img2}/>}</p>
+                    {text2 && <span>{text2}</span>}
+                    {text3 && <p className='madal_a'><a target='_blank' href={a2}>{text3}</a></p>}
+                    <a target='_blank' href={a} className='madal_a'>{a}</a>
+                    {rosigrish}
+                </Modal>
+            </div>
     </>
   );
 };
-export default App;
+export default Modalka;

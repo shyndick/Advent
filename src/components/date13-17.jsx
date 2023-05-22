@@ -1,5 +1,5 @@
-import {Modal } from 'antd';
-import { useState } from 'react';
+
+import Modalka from './Modal';
 import img13 from '../image/1.13.png'
 import img14 from '../image/1.14.png'
 import img15 from '../image/1.15.png'
@@ -9,65 +9,45 @@ import img17 from '../image/1.17.png'
 
 export const Date13 = () => {
 
-    const [isModalOpen, setIsModalOpen] = useState(false);
-    const showModal = () => {
-      setIsModalOpen(true);
-    };
-    const handleOk = () => {
-      setIsModalOpen(false);
-    };
-    const handleCancel = () => {
-      setIsModalOpen(false);
-    };
-
-    
-
     return(
         <div className='thirteen'>
-            <div className="thirteen_13">
-                    <img src={img13} alt="1" className='img1' onClick={showModal}/>
-                <Modal title="Basic Modal" open={isModalOpen} onOk={handleOk} onCancel={handleCancel}>
-                    <p>Some contents...</p>
-                    <p>Some contents...</p>
-                    <p>Some contents...</p>
-                </Modal>
-            </div>
+            <Modalka 
+                title={'День 13'}
+                text={"«Выберите себе подарок с нашим фирменным логотипом». Кнопка «Выбрать подарок». Открывается что-то на подобии ленты подарков (там фото типо рюкзака, термокружки, фитнесс браслет, подставка под горячее) типо это выбирается, вписывается дом.адрес, моб.телефон."}
+                klass={"thirteen_13"}
+                img={img13}
+            />
 
-            <div className="thirteen_14">
-                    <img src={img14} alt="1" className='img1' onClick={showModal}/>
-                <Modal title="Basic Modal" open={isModalOpen} onOk={handleOk} onCancel={handleCancel}>
-                    <p>Some contents...</p>
-                    <p>Some contents...</p>
-                    <p>Some contents...</p>
-                </Modal>
-            </div>
+            <Modalka 
+                title={'День 14'}
+                text={"«Приглашаем Вас на экскурсию по нашему новому офису! Умный экологичный дом – первый в Беларуси! Увлекательная экскурсия, беседа с сотрудниками не оставят Вас равнодушными.»"}
+                klass={"thirteen_14"}
+                img={img14}
+            />
 
-            <div className="thirteen_17">
-                    <img src={img17} alt="1" className='img1' onClick={showModal}/>
-                <Modal title="Basic Modal" open={isModalOpen} onOk={handleOk} onCancel={handleCancel}>
-                    <p>Some contents...</p>
-                    <p>Some contents...</p>
-                    <p>Some contents...</p>
-                </Modal>
-            </div>
+            <Modalka 
+                title={'День 17'}
+                text={"Вы получили купон на скидку продукции Савушкин, равный 35%. Для получения скидки, предъявите "}
+                text3={"Штрихкод"}
+                a2={'https://mybito.ru/files/images/shtrikhkodirovanie_849116425.png'}
+                klass={"thirteen_17"}
+                img={img17}
+            />
 
-            <div className="thirteen_16">
-                    <img src={img16} alt="1" className='img1' onClick={showModal}/>
-                <Modal title="Basic Modal" open={isModalOpen} onOk={handleOk} onCancel={handleCancel}>
-                    <p>Some contents...</p>
-                    <p>Some contents...</p>
-                    <p>Some contents...</p>
-                </Modal>
-            </div>
+            <Modalka
+                title={'День 16'}    
+                text={"«Новый Год – словно очередной повод для чудес. Внутри каждого из нас живет добро. В Беларуси насчитыватся 13 детских домов, где более 27 000 детей, признанных в социально опасном положении. Они нуждаются в любви, заботе и тепле. Любая помощь дает детям повод для счастья. Мы запускаем акцию #ПоделисьТемпломSANTA. Вы можете выбрать адрес детского дома и отправить любой подарок, либо же сделать денежное пожертвование. Поделись теплом – подари новогоднее чудо!» "}
+                klass={"thirteen_16"}
+                img={img16}
+            />
 
-            <div className="thirteen_15">
-                    <img src={img15} alt="1" className='img1' onClick={showModal}/>
-                <Modal title="Basic Modal" open={isModalOpen} onOk={handleOk} onCancel={handleCancel}>
-                    <p>Some contents...</p>
-                    <p>Some contents...</p>
-                    <p>Some contents...</p>
-                </Modal>
-            </div>
+            <Modalka 
+                title={'День 15'}
+                text={"«Есть два способа прожить жизнь: или так, будто чудес не бывает, или так, будто вся жизнь – чудо» (Альберт Эйнштейн)."}
+                klass={"thirteen_15"}
+                img={img15}
+            />
+
         </div>
     )
 }
